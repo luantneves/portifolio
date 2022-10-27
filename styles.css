@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+aside{
+    display:grid;
+    flex-direction: row;
+    grid-template-rows: 1.5fr 3fr 0.5fr;
+    background-color: #4359d0;
+    margin-top: 50px;
+    height: 800px;
+    border-radius: 50px;
+    min-width:300px;
+    font-family: 'Roboto';
+    border: 2px solid #ff5761;
+    
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    max-height: 800px;
+    font-family: 'Roboto';
+    color:white;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 2px solid #ff5761;
+    background-color: #4359d0;
+}
+
+main > p{
+    max-width: 1000px;
+    padding-left: 100px;
+    max-height: 800px;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    padding: 100px;
+}
+img{
+    
+    max-width: 180px;
+    padding: 15px;
+}
+
+header > p{
+    padding-left:15px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(205, 205, 205);
+    
+}
+
+header > p:nth-child(2){
+    font-size: 1.8rem;
+    color: rgb(78, 78, 78);
+    font-family: 'Roboto';
+}
+
+ul{
+    display:flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 70px;
+    
+}
+span{
+    margin-right: 18px;
+    margin-bottom: 0px;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top:10px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto';
+    transition: 0.7s;
+
+    
+}
+
+li:hover{
+    background-color: #ff5761;
+    transition: 0.5s;
+    font-size:1.8rem;
+}
+.icones{
+    display: flex;
+    margin-bottom: 85px;
+    justify-content: center;
+}
+
+.icones > a > img{
+    
+    max-width: 70px;
+    height: 70px;
+    transition: 0.7s;
+   
+}
+
+.icones > a > img:hover{
+    background-color: #ff5761;
+    transition: 0.7s;
+    max-width: 80px;
+    height: 80px;
+    
+}
+
